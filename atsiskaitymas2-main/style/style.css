@@ -1,0 +1,317 @@
+/* Bendras */
+.container-xl{
+  /* max-width: 1200px; */
+    font-family: "Inter", sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 15px 20px; 
+    background-color: #4CAF4F;
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 4px;
+}
+
+.container-fluid{
+    max-width: 80%;
+}
+
+.container h2,h3{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.container p{
+    color: #717171;
+    font-size: 14px;
+}
+
+/* Nav */
+.navbar {
+    background-color:#F5F7FA;
+    margin: -12px;
+    padding: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 20px; 
+  padding: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn-login {
+  background-color: #F5F7FA; 
+  color: #4CAF4F;              
+}
+
+.btn-signup {
+  background-color: #4CAF4F;
+  color: #FFFFFF;               
+}
+
+/* Hero */
+#main1{
+    background-color: #F5F7FA;
+    text-align: left;
+    padding: 40px;
+    padding-left: 100px;
+}
+
+#main1 span{
+    color: #4CAF4F;
+}
+
+#main1 h2{
+    font-size: 64px;
+}
+
+#main1 img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/* Clients */
+#main2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#main2 h2 {
+  font-size: 36px;
+  color: #4D4D4D;
+  font-weight: 600;
+}
+
+#main2 p {
+  font-size: 16px;
+}
+
+#img2 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 50px;
+  align-items: center; 
+  width: 100%; 
+  padding: 20px 0;         
+  box-sizing: border-box;
+}
+
+#img2 img {
+  max-width: 50px;               
+  height: auto;
+}
+
+/* Sections */
+#main3 h2{
+    margin-top: 30px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#main3 p{
+    text-align: center;
+    font-size: 16px;
+}
+
+#main4 .row {
+  display: flex;
+  justify-content: center;   
+  gap: 20px;    
+}
+
+#main4 .col-md-4 {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;    
+  justify-content: center;   
+  background-color: #FFFFFF; 
+  gap: 8px;
+  border-radius: 8px; 
+  text-align: center;
+}
+
+/* Main5 & main12 */
+#main5, #main12{
+    background-color:#F5F7FA;
+    padding: 50px 20px;
+}
+
+#main5 p{
+  margin-top: 20px;
+}
+
+/* Stats */
+#main11 h2{
+  font-size: 28px;
+}
+
+#main11 p{
+  font-size: 16px;
+  /* text-align: left; */
+}
+
+#main11 img{
+  max-width: 50px;
+  margin-right: 30px;
+}
+
+#main13 h2{
+  text-align: center;
+  font-size: 36px;
+}
+
+#main13 p{
+  font-size: 16px;
+  text-align: center;
+  color: #18191F;
+}
+
+.col-md-6 span{
+    color: #4CAF4F;
+}
+
+/* Blog section */
+#main6 {
+    text-align: center;
+}
+
+#main6 h2,
+#main6 p {
+    max-width: 600px; 
+    margin: 0 auto;   
+}
+
+#main6 h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#main6 p{
+  margin-bottom: 20px;
+}
+
+h4{
+    color: #4CAF4F;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #4CAF4F;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+.text-center{
+    background-color: #F5F7FA;
+    padding-top: 60px;
+}
+
+.text-center h1{
+    font-weight: 600;
+    font-size: 64PX;
+    margin-bottom: 30px;
+}
+
+.client-logos-small img{
+  margin-right: 40px;
+}
+
+.btn-floating{
+    background-color:#263238;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.list-unstyled a{
+  color:rgba(245, 247, 250, 1);
+  font-size: 14px;
+  font-weight: 400;
+  /* text-align: left; */
+}
+
+
+/* #formControlLg{
+  background-color: #D9DBE1;
+  opacity: 20%;
+  
+}
+
+#formControlLg::placeholder {
+    color: #FFFFFF;      
+} */
+
+#formControlLg {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #FFFFFF; 
+    border: none;
+}
+
+#formControlLg::placeholder {
+    color: rgba(217, 219, 225, 1);      
+    opacity: 1;
+}
+
+
+footer a{
+    color: #F5F7FA;
+    font-size: 14px;
+}
+
+/* RESPONSIVE STYLING */
+@media (max-width: 992px) {
+  #main1 h2{
+    font-size: 48px;
+  }
+  #main1 img{
+    max-width: 300px;
+  }
+  #main4 .col-md-4 {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-nav .nav-link{
+    margin: 5px 0;
+  }
+  #main1 h2{
+    font-size: 36px;
+  }
+  #main1 img{
+    max-width: 200px;
+  }
+  #main4 .col-md-4 {
+    flex: 1 1 100%;
+  }
+  #main6 h2,
+  #main6 p{
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  #main13 h2{
+    font-size: 28px;
+  }
+}

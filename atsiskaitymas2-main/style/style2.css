@@ -1,0 +1,270 @@
+/* ---------- GLOBAL SETTINGS ---------- */
+body {
+  font-family: "Inter", sans-serif;
+  color: #4D4D4D;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4CAF4F;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #388E3C;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #4D4D4D;
+  font-weight: 500;
+  margin-right: 25px;
+  transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #4CAF4F;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn-login {
+  background-color: #F5F7FA;
+  color: #4CAF4F;
+  border: 2px solid #4CAF4F;
+}
+
+.btn-login:hover {
+  background-color: #4CAF4F;
+  color: #FFFFFF;
+}
+
+.btn-signup,
+.btn-primary {
+  background-color: #4CAF4F !important;
+  border: none;
+  color: #FFFFFF;
+}
+
+.btn-signup:hover,
+.btn-primary:hover {
+  background-color: #45A049 !important;
+}
+
+/* ---------- HERO SECTION ---------- */
+/* #main1 {
+  background-color: #F5F7FA;
+  padding: 80px 0;
+}
+
+#main1 h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+#main1 span {
+  color: #4CAF4F;
+}
+
+#main1 p {
+  font-size: 16px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+
+#main1 img {
+  max-width: 400px;
+} */
+ #main1 {
+  position: relative;
+  background-color: #F5F7FA;
+  padding: 100px 0;
+  overflow: hidden; /* kad neišlįstų už ribų */
+}
+
+#main1 img {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  max-width: 500px;
+  z-index: 1;
+}
+
+#main1 .col-md-8 {
+  position: relative;
+  z-index: 2; /* kad tekstas būtų viršuje */
+}
+
+/* ---------- CLIENTS SECTION ---------- */
+#main2 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#main2 p {
+  color: #717171;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* ---------- COMMUNITY SECTION ---------- */
+#main3 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#main3 p {
+  font-size: 16px;
+  color: #717171;
+}
+
+/* ---------- FEATURES ---------- */
+#main4 img {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+#main4 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#main4 p {
+  color: #717171;
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* ---------- ABOUT ---------- */
+#main5 h2,
+#main6 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4D4D4D;
+}
+
+#main5 span {
+  color: #4CAF4F;
+}
+
+#main5 p,
+#main6 p {
+  color: #717171;
+  font-size: 16px;
+}
+
+/* ---------- TESTIMONIAL ---------- */
+#main6 a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4CAF4F;
+}
+
+#main6 a:hover {
+  color: #388E3C;
+}
+
+/* ---------- BLOG ---------- */
+#main7 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#main7 p {
+  color: #717171;
+  font-size: 16px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body h5 {
+  font-size: 18px;
+  color: #4D4D4D;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-body a {
+  color: #4CAF4F;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.card-body a:hover {
+  color: #388E3C;
+}
+
+/* ---------- DEMO SECTION ---------- */
+.text-center h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #4D4D4D;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  padding: 60px 0;
+}
+
+footer h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #F5F7FA;
+  font-size: 14px;
+}
+
+footer a {
+  color: #F5F7FA;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #4CAF4F;
+}
+
+footer input {
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
